@@ -1,0 +1,3 @@
+gevent
+requests
+dnspython
