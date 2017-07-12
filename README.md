@@ -11,28 +11,28 @@
 
 帮助信息
 
-![WX20170712-171055@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-171055@2x.png)
+![WX20170712-171055@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-171055%402x.png)
 
 目标网站的域名，使用了CDN
 
-![WX20170712-181255@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-181255@2x.png)
+![WX20170712-181255@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181255%402x.png)
 
 收集目标相关信息
 
-![WX20170712-181505@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-181505@2x.png)
+![WX20170712-181505@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181505%402x.png)
 
 得到子域名及其IP
 
-![WX20170712-181901@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-181901@2x.png)
+![WX20170712-181901@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181901%402x.png)
 
 得到IP段信息，同时发现目标真实IP段
 
-![WX20170712-181521@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-181521@2x.png)
+![WX20170712-181521@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181521%402x.png)
 
 在该IP段查找目标域名真实IP
 
-![WX20170712-181636@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-181636@2x.png)
+![WX20170712-181636@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181636%402x.png)
 
 成功发现一个IP
 
-![WX20170712-181651@2x](/Users/sfish/Documents/pt_tools/test/hackcdn/doc/WX20170712-181651@2x.png)
+![WX20170712-181651@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181651%402x.png)
