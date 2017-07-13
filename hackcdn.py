@@ -44,6 +44,8 @@ def get_resp_len(url, ua, host=None, cookie=None):
         return 0
     except socket.timeout:
         return 0
+    except ssl.SSLError:
+        return 0
     if res.code == 200:
         try:
             resp_len = len(res.read())
