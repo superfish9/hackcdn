@@ -29,10 +29,12 @@
 
 ![WX20170712-181521@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181521%402x.png)
 
-在该IP段查找目标域名真实IP
+在该IP段查找目标网站的真实IP
 
 ![WX20170712-181636@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181636%402x.png)
 
 成功发现一个IP
 
 ![WX20170712-181651@2x](https://github.com/superfish9/hackcdn/blob/master/doc/WX20170712-181651%402x.png)
+
+Test URL后边的两个数字分别是不特别设置Host头的响应包长度，以及把Host头设置为目标域名时的响应包长度（考虑到有些网站的真实IP所在主机为反向代理，它们会根据Host头转发到后段负载主机）。如果前者是0而后者长度正确，则应在本地配置hosts后通过域名访问网站。
