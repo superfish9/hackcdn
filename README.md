@@ -5,7 +5,9 @@
 - 使用猪猪侠的[wydomain2](https://github.com/ring04h/wydomain)进行子域名收集
 - 使用第三方库[IPy](https://github.com/autocracy/python-ipy)进行CIDR地址处理
 - 根据HTTP响应包长度在给出的地址范围内寻找真实IP
-- 使用时可根据情况在URL中带上路径信息/在请求中带上Cookie信息
+- 若担心由于跳转造成的判断不准确可在URL中带上路径
+- 可以选择在请求中带上Cookie信息
+- 考虑到网站可能在其它端口可用-p选项指定端口列表
 
 ## 使用
 
