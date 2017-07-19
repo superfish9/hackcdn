@@ -81,7 +81,7 @@ def get_port(url):
 
 def collect_domain(domain):
     '''
-    Invode wydomain2 to collect subdomain.
+    Invoke wydomain2 to collect subdomain.
     '''
     import wydomain as wy_collect_domain
 
