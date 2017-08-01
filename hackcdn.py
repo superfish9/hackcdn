@@ -6,6 +6,7 @@
 import sys; sys.path.append('./thirdparty/wydomain2')
 import httplib
 import urllib2
+import urllib
 import socket
 import gevent
 import argparse
@@ -36,6 +37,8 @@ def get_resp_len(url, ua, host=None, cookie=None):
         req.add_header('Host', host)
     try:
         res = urllib2.urlopen(req, timeout=5)
+    except urllib.request.URLError:
+        return 0
     except urllib2.URLError:
         return 0
     except ssl.CertificateError:
