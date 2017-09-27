@@ -133,7 +133,7 @@ def handle_port(ports):
     Handle ports user input, return port list.
     '''
     ports = ''.join(ports.split())
-    port_list = port.split(',')
+    port_list = ports.split(',')
     return [port for port in port_list if check_port(port)]
 
 def handle_addr(addr):
